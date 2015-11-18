@@ -1,4 +1,6 @@
-import {VirtualMachine} from './virtual_machine';
+'use strict';
+
+const VirtualMachine = require('./virtual_machine');
 
 /**
  *	Represents a model of a amazon virtual machine.
@@ -6,7 +8,7 @@ import {VirtualMachine} from './virtual_machine';
  * @class AmazonVirtualMachine
  * @extends VirtualMachine
  */
-export class AmazonVirtualMachine extends VirtualMachine {
+class AmazonVirtualMachine extends VirtualMachine {
 
   /**
    * Initializes a new instance of {VirtualMachine}.
@@ -41,3 +43,5 @@ export class AmazonVirtualMachine extends VirtualMachine {
     this._location = location;
   }
 }
+
+module.exports = AmazonVirtualMachine;

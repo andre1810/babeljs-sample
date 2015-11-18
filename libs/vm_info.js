@@ -1,5 +1,7 @@
-import {VirtualMachine} from './virtual_machine';
-import {AmazonVirtualMachine} from './amazon_virtual_machine';
+'use strict';
+
+const VirtualMachine = require('./virtual_machine');
+const AmazonVirtualMachine = require('./amazon_virtual_machine');
 
 const BASE_DOMAIN = 'example.com';
 

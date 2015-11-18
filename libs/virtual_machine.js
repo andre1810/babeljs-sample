@@ -1,9 +1,11 @@
+'use strict';
+
 /**
  *	Represents a model of a virtual machine.
  *
  * @class VirtualMachine
  */
-export class VirtualMachine {
+class VirtualMachine {
 
   /**
    * Initializes a new instance of {VirtualMachine}.
@@ -49,3 +51,5 @@ export class VirtualMachine {
     return _fqdnHostname;
   }
 }
+
+module.exports = VirtualMachine;
